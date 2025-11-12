@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>420441521685-hc535ich0lhhv6ac06fbv0v8rf5s6jcm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.420441521685-hc535ich0lhhv6ac06fbv0v8rf5s6jcm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCtAH4MKT6PjcSQ_hsJ2nejavi5rfNH28c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>420441521685</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.anonymous.seminaroauth</string>
+	<key>PROJECT_ID</key>
+	<string>seminar-oauth</string>
+	<key>STORAGE_BUCKET</key>
+	<string>seminar-oauth.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:420441521685:ios:b762d59e7a0b18eaa8581c</string>
+</dict>
+</plist>

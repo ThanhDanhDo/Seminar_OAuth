@@ -1,5 +1,3 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
 # dependencies
 node_modules/
 
@@ -7,7 +5,6 @@ node_modules/
 .expo/
 dist/
 web-build/
-expo-env.d.ts
 
 # Native
 .kotlin/
@@ -32,12 +29,34 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
 
-app-example
-
 # generated native folders
 /ios
-/android
+
+# Android specific - Keep android folder for local build
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+android/*.iml
+android/.cxx/
+android/captures/
+android/app/release/
+android/app/debug/
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+
+# Keystore files (IMPORTANT: Do not commit!)
+*.keystore
+*.jks
+
+# VS Code
+.vscode/
