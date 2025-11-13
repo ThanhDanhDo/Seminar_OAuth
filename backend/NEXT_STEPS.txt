@@ -1,0 +1,44 @@
+###############################################
+# HƯỚNG DẪN DOWNLOAD FIREBASE SERVICE ACCOUNT
+###############################################
+
+**Backend đã compile thành công và Database đã sẵn sàng!**
+✓ JWT dependency đã được thêm
+✓ Code đã được sửa cho JWT 0.12.3
+✓ Neon DB đã được kết nối
+✓ Bảng 'users' đã được tạo tự động
+
+**Chỉ còn 1 bước cuối:**
+
+1. Truy cập: https://console.firebase.google.com/
+
+2. Chọn project của bạn
+
+3. Click vào biểu tượng ⚙️ (Settings) > Project Settings
+
+4. Tab "Service Accounts"
+
+5. Click nút "Generate New Private Key"
+
+6. Click "Generate Key" để confirm
+
+7. File JSON sẽ được download
+
+8. Đổi tên file thành: firebase-service-account.json
+
+9. Copy vào thư mục: 
+   D:\Study_space\Di_dong_da_nen_tang\Seminar_OAuth\backend\src\main\resources\
+
+10. Chạy lại backend:
+    cd "d:\Study_space\Di_dong_da_nen_tang\Seminar_OAuth\backend"
+    mvn spring-boot:run
+
+**Sau khi backend chạy thành công, bạn sẽ thấy:**
+✓ Started SeminarOAuthApplication in X seconds
+✓ Tomcat started on port(s): 8080 (http)
+
+**Tiếp theo test bằng mobile app:**
+1. Chạy: npx expo start
+2. Login bằng Google
+3. Copy Firebase ID Token từ console
+4. Test API: ./test-api.ps1
