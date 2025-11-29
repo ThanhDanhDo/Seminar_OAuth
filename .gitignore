@@ -71,3 +71,6 @@ android/app/debug/
 
 expo-env.d.ts
 # @end expo-cli
+
+# Application Properties (Sensitive Data)
+**/application-dev.properties

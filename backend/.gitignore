@@ -39,3 +39,4 @@ Thumbs.db
 
 # Application Properties (có thể có sensitive data)
 **/application-local.properties
+**/src/main/resources/application-dev.properties
