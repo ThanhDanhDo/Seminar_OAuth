@@ -55,6 +55,47 @@ export default function Home() {
                         Xin chào, {user?.displayName || 'User'}!
                     </Text>
                 </View>
+
+                {/* OAuth Demo Features */}
+                <View style={styles.demoSection}>
+                    <Text style={styles.demoTitle}>🎓 OAuth Demo Features</Text>
+                    
+                    <TouchableOpacity 
+                        style={styles.demoButton}
+                        onPress={() => router.push('/OAuthFlowVisualizer')}
+                    >
+                        <Text style={styles.demoButtonIcon}>🔄</Text>
+                        <View style={styles.demoButtonContent}>
+                            <Text style={styles.demoButtonTitle}>OAuth Flow Visualizer</Text>
+                            <Text style={styles.demoButtonDesc}>Xem từng bước OAuth 2.0 flow</Text>
+                        </View>
+                        <Text style={styles.demoButtonArrow}>→</Text>
+                    </TouchableOpacity>
+
+                    <TouchableOpacity 
+                        style={styles.demoButton}
+                        onPress={() => router.push('/JWTInspector')}
+                    >
+                        <Text style={styles.demoButtonIcon}>🔐</Text>
+                        <View style={styles.demoButtonContent}>
+                            <Text style={styles.demoButtonTitle}>JWT Token Inspector</Text>
+                            <Text style={styles.demoButtonDesc}>Decode và analyze ID Token</Text>
+                        </View>
+                        <Text style={styles.demoButtonArrow}>→</Text>
+                    </TouchableOpacity>
+
+                    <TouchableOpacity 
+                        style={styles.demoButton}
+                        onPress={() => router.push('/SecurityLab')}
+                    >
+                        <Text style={styles.demoButtonIcon}>🛡️</Text>
+                        <View style={styles.demoButtonContent}>
+                            <Text style={styles.demoButtonTitle}>Security Lab</Text>
+                            <Text style={styles.demoButtonDesc}>Tìm hiểu các attack vectors</Text>
+                        </View>
+                        <Text style={styles.demoButtonArrow}>→</Text>
+                    </TouchableOpacity>
+                </View>
                 
                 <View style={styles.infoCard}>
                     <Text style={styles.sectionTitle}>📋 Thông Tin Cơ Bản</Text>
@@ -291,5 +332,51 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: '600',
+  },
+  demoSection: {
+    marginBottom: 20,
+  },
+  demoTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 12,
+  },
+  demoButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    padding: 16,
+    borderRadius: 12,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#e0e0e0',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  demoButtonIcon: {
+    fontSize: 32,
+    marginRight: 12,
+  },
+  demoButtonContent: {
+    flex: 1,
+  },
+  demoButtonTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 4,
+  },
+  demoButtonDesc: {
+    fontSize: 13,
+    color: '#666',
+  },
+  demoButtonArrow: {
+    fontSize: 20,
+    color: '#4285F4',
+    marginLeft: 8,
   },
 });
