@@ -1,10 +1,24 @@
-import React, { createContext, useState, ReactNode } from 'react';
+import React, { createContext, ReactNode, useState } from 'react';
 
 export type User = {
  displayName?: string;
  email?: string;
  photoURL?: string;
  uid: string;
+ phoneNumber?: string;
+ emailVerified?: boolean;
+ providerData?: Array<{
+   providerId: string;
+   uid: string;
+   displayName?: string;
+   email?: string;
+   photoURL?: string;
+   phoneNumber?: string;
+ }>;
+ metadata?: {
+   creationTime?: string;
+   lastSignInTime?: string;
+ };
 };
 
 interface AuthContextProps {
