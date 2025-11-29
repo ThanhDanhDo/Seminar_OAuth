@@ -1,6 +1,9 @@
 <resources>
   <string name="app_name">Seminar_OAuth</string>
   <string name="expo_system_ui_user_interface_style" translatable="false">automatic</string>
+  <string name="facebook_app_id">1185127116280087</string>
+  <string name="facebook_client_token">5b1b069a14ba4f12b42cca4b13e1ceac</string>
+  <string name="fb_login_protocol_scheme">fb1185127116280087</string>
   <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
   <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
 </resources>

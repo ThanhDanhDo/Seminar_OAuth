@@ -53,6 +53,19 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "1185127116280087",
+          "clientToken": "5b1b069a14ba4f12b42cca4b13e1ceac",
+          "displayName": "Seminar OAuth",
+          "scheme": "fb1185127116280087",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true,
+          "iosUserTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
       ]
     ],
     "experiments": {
